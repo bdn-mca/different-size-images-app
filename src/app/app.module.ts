@@ -9,12 +9,19 @@ import { ImagesGoodComponent } from './components/images-good/images-good.compon
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
+import { ImagesTallComponent } from './components/images-tall/images-tall.component';
+import { ImagesWideComponent } from './components/images-wide/images-wide.component';
+import { ImagesTallFixComponent } from './components/images-tall-fix/images-tall-fix.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagesFailComponent,
-    ImagesGoodComponent
+    ImagesGoodComponent,
+    ImagesTallComponent,
+    ImagesWideComponent,
+    ImagesTallFixComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +29,8 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
