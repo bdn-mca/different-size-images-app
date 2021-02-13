@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-images-tall-fix',
@@ -7,7 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ImagesTallFixComponent {
 
-  public code: string = ".company-logo css: { float:left; height: 40px; }";
+  public imgSrc: string = `../../../assets/${environment.version}/logo-tall.png`;
+  public code: string = "{ height: 40px; }";
 
   constructor() { }
 }

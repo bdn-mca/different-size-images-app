@@ -1,0 +1,13 @@
+<mat-card class="card">
+  <img class="company-logo" src="{{imgSrc}}" />
+  <mat-card-header>
+    <mat-card-title>{{title}}</mat-card-title>
+    <mat-card-subtitle>{{subtitle}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-tab-group mat-align-tabs="start">
+      <mat-tab label="Content">{{content}}</mat-tab>
+      <mat-tab label="Code"><pre><code>{{code}}</code></pre></mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>

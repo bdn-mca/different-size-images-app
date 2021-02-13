@@ -1,10 +1,5 @@
-.company-logo {
-  float:left;
+:host ::ng-deep img {
   width: 40px;
-  object-fit: none;
-}
-
-.card {
-  margin: 1%;
-  width: 25%;
+  height: 40px;
+  object-fit: contain;
 }

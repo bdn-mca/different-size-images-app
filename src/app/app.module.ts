@@ -13,6 +13,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { ImagesTallComponent } from './components/images-tall/images-tall.component';
 import { ImagesWideComponent } from './components/images-wide/images-wide.component';
 import { ImagesTallFixComponent } from './components/images-tall-fix/images-tall-fix.component';
+import { ImagesBaseComponent } from './components/base/images-base/images-base.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ImagesTallFixComponent } from './components/images-tall-fix/images-tall
     ImagesGoodComponent,
     ImagesTallComponent,
     ImagesWideComponent,
-    ImagesTallFixComponent
+    ImagesTallFixComponent,
+    ImagesBaseComponent
   ],
   imports: [
     BrowserModule,
