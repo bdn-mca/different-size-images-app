@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  version: 'v1',
+  version: 'v2',
   v1: {
     title: 'MCA',
     subtitle: 'IT company',
@@ -13,7 +13,7 @@ export const environment = {
   v2: {
     title: 'Starbucks',
     subtitle: 'Coffee',
-    content: 'Coffee'
+    content: 'We’re not just passionate purveyors of coffee, but everything else that goes with a full and rewarding coffeehouse experience.'
   }
 };
 
